@@ -1,0 +1,13 @@
+aws_region             = "us-east-1"
+project_name           = "terraform-data-demo"
+
+db_name                = "appdb"
+db_username            = "dbadmin"
+db_instance_class      = "db.t3.micro"
+db_allocated_storage   = 20
+
+db_publicly_accessible = false
+
+allowed_mysql_cidr     = "10.0.0.0/16"
+
+dynamodb_table_name    = "app-items"
