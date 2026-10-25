@@ -14,6 +14,10 @@ through Infrastructure as Code (IaC).
 - AWS Security Groups
 - Terraform AWS Provider
 
+ ## Architecture
+
+![Terraform AWS RDS and DynamoDB Architecture](Architecture.png)
+
 ## Features
 - Automated AWS infrastructure provisioning
 - Encrypted RDS storage
